@@ -1,0 +1,98 @@
+/* Header */
+
+.large-header {
+  position: relative;
+  width: 100%;
+  background: #000;
+  overflow: hidden;
+  background-size: cover;
+  background-position: center center;
+  z-index: 1;
+}
+.main-title {
+  position: absolute;
+  margin: 0;
+  padding: 0;
+  color: #f9f1e9;
+  text-align: center;
+  font-family: 'Raleway', Calibri, Arial, sans-serif;
+  font-size: 5em;
+  font-weight: 400;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate3d(-50%, -50%, 0);
+  transform: translate3d(-50%, -50%, 0);
+}
+.main-title .thin {
+  font-weight: 200;
+}
+.main-title {
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  cursor: context-menu;
+}
+
+/* About */
+
+.container {
+  font-family: 'Raleway', Calibri, Arial, sans-serif;
+}
+.about-area {
+  padding-top: .4em;
+  letter-spacing: 1.5pt;
+}
+.social_links {
+  padding-top: 2em;
+  margin-bottom: 20px;
+  text-align: center;
+  padding-left: 0;
+}
+.linkedin, .github {
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 35px;
+  max-height: 35px;
+}
+.glyphicon-envelope::before {
+  font-size: 35px;
+  color: #000;
+}
+.social_icon {
+  list-style-type: none;
+  display: inline-block;
+  padding-right: 10px;
+}
+.social_icon:hover + .current-projects {
+  background: red;
+}
+.lead {
+  font-weight: 400;
+  margin-bottom: 0;
+}
+
+/* Current projects */
+
+.current-projects {
+  font-size: 1.35em;
+  letter-spacing: 0.2em;
+  padding: 1.5em 0;
+}
+
+/* Footer */
+
+.footer {
+  text-align: center;
+  background-color: #000;
+  color: #fff;
+  padding: 10px 0 5px;
+}
+.logo-footer {
+  max-width: 4em;
+  float: none;
+  padding-bottom: .5em
+}
+.footer-title {
+  letter-spacing: 0.1em;
+}
