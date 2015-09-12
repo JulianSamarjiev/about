@@ -94,5 +94,6 @@
   padding-bottom: .5em
 }
 .footer-title {
-  letter-spacing: 0.1em;
+  letter-spacing: 0.2em;
+  font-weight: 200;
 }
