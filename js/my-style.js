@@ -183,28 +183,11 @@
     function getDistance(p1, p2) {
         return Math.pow(p1.x - p2.x, 2) + Math.pow(p1.y - p2.y, 2);
     }
-    
+
 })();
 
-/* --- Social icons hover effect--- */
-
-$('.red').hover(function(){
-    $('body').toggleClass('active-red');
+// My projects button
+$('.portfolio-wrapper').hide();
+$('.my-projects-link').click(function() {
+  $('.portfolio-wrapper').slideToggle();
 });
-
-$('.blue').hover(function(){
-    $('body').toggleClass('active-blue');
-});
-
-$('.green').hover(function(){
-    $('body').toggleClass('active-green');
-});
-
-
-
-
-
-
-
-
-

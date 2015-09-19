@@ -44,8 +44,7 @@
   letter-spacing: 1.5pt;
 }
 .social_links {
-  padding-top: 2em;
-  margin-bottom: 20px;
+  padding: 2em 0;
   text-align: center;
   padding-left: 0;
 }
@@ -79,14 +78,19 @@
 }
 
 .portfolio-item {
-  -webkit-box-shadow: 1px 1px 1px 1px rgba(0,0,0,0.7);
-  -moz-box-shadow: 1px 1px 1px 1px rgba(0,0,0,0.7);
-  box-shadow: 1px 1px 1px 1px rgba(0,0,0,0.7);
+  -webkit-box-shadow: 1px 1px 1px 1px rgba(0,0,0,0.6);
+  -moz-box-shadow: 1px 1px 1px 1px rgba(0,0,0,0.6);
+  box-shadow: 1px 1px 1px 1px rgba(0,0,0,0.6);
 }
 
 .portfolio-item:hover {
   transform: scale(1.1);
   transition: 0.3s;
+}
+
+.my-projects-link {
+  text-decoration: underline;
+  cursor: pointer;
 }
 
 /* Footer */
