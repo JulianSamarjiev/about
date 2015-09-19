@@ -44,7 +44,7 @@
   letter-spacing: 1.5pt;
 }
 .social_links {
-  padding: 2em 0;
+  padding: 20px 0 10px;
   text-align: center;
   padding-left: 0;
 }
@@ -93,20 +93,14 @@
   cursor: pointer;
 }
 
-/* Footer */
-
-.footer {
-  text-align: center;
-  background-color: #000;
-  color: #fff;
-  padding: 10px 0 5px;
-}
-.logo-footer {
-  max-width: 4em;
-  float: none;
-  padding-bottom: .5em
-}
-.footer-title {
-  letter-spacing: 0.2em;
-  font-weight: 200;
+@media screen and (max-width: 991px) {
+  .portfolio-wrapper {
+    margin-bottom: 0;
+  }
+  .portfolio-item {
+    margin-bottom: 20px;
+  }
+  .portfolio-item:hover {
+    transform: none;
+  }
 }
