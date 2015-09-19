@@ -72,12 +72,21 @@
   margin-bottom: 0;
 }
 
-/* Current projects */
+/* Portfolio */
 
-.current-projects {
-  font-size: 1.35em;
-  letter-spacing: 0.2em;
-  padding: 1.5em 0;
+.portfolio-wrapper {
+  margin-bottom: 20px;
+}
+
+.portfolio-item {
+  -webkit-box-shadow: 1px 1px 1px 1px rgba(0,0,0,0.7);
+  -moz-box-shadow: 1px 1px 1px 1px rgba(0,0,0,0.7);
+  box-shadow: 1px 1px 1px 1px rgba(0,0,0,0.7);
+}
+
+.portfolio-item:hover {
+  transform: scale(1.1);
+  transition: 0.3s;
 }
 
 /* Footer */
