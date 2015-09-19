@@ -189,5 +189,6 @@
 // My projects button
 $('.portfolio-wrapper').hide();
 $('.my-projects-link').click(function() {
+  alert('Scroll down!');
   $('.portfolio-wrapper').slideToggle();
 });
