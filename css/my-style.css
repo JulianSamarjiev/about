@@ -1,5 +1,4 @@
 /* Header */
-
 .large-header {
   position: relative;
   width: 100%;
@@ -35,7 +34,6 @@
 }
 
 /* About */
-
 .container {
   font-family: 'Raleway', Calibri, Arial, sans-serif;
 }
@@ -72,17 +70,17 @@
 }
 
 /* Portfolio */
-
 .portfolio-wrapper {
   margin-bottom: 80px;
 }
 .portfolio-item {
-  border: 1px solid rgba(0,0,0,0.1);
-  -webkit-transition: 200ms; /* Safari */
+  border: 1px solid rgba(0, 0, 0, 0.1);
+  -webkit-transition: 200ms;
+  /* Safari */
   transition: 200ms;
 }
 .portfolio-item:hover {
-  box-shadow: 0 2px 4px 0 rgba(0,0,0,0.2), 0 8px 16px 0 rgba(0,0,0,0.3);
+  box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.2), 0 8px 16px 0 rgba(0, 0, 0, 0.3);
   -ms-transform: scale(1.02); /* IE 9 */
   -webkit-transform: scale(1.02); /* Safari */
   transform: scale(1.01);
