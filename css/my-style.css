@@ -85,10 +85,6 @@
   -webkit-transform: scale(1.02); /* Safari */
   transform: scale(1.01);
 }
-.my-projects-link {
-  text-decoration: underline;
-  cursor: pointer;
-}
 @media screen and (max-width: 991px) {
   .portfolio-wrapper {
     margin-bottom: 0;
