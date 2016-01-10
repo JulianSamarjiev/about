@@ -1,6 +1,12 @@
 body {
   font-family: 'Raleway', Calibri, Arial, sans-serif;
 }
+a {
+  color: #31BEB1;
+}
+a:hover {
+  color: #F6BE15;
+}
 .about-area {
   padding-top: 10px;
   letter-spacing: 1px;
