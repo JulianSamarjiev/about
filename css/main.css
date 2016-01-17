@@ -1,17 +1,22 @@
-body {
-  font-family: 'Raleway', Calibri, Arial, sans-serif;
-}
+/* General styles */
 a {
   color: #31BEB1;
+  text-decoration: none;
 }
 a:hover {
   color: #F6BE15;
+  text-decoration: underline;
 }
-.about-area {
-  padding-top: 10px;
-  letter-spacing: 1px;
+h2 {
+  margin: 1rem 0 0;
   font-weight: 400;
-  margin-bottom: 0;
-  text-align: justify;
-  font-size: 20px;
+}
+hr {
+  margin: 1rem 0;
+}
+
+/* Custom styles */
+.about-area {
+  font-weight: 400;
+  font-size: 2rem;
 }
