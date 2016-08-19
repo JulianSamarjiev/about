@@ -1,36 +1,33 @@
 /* General styles */
 body, html  {
   height: 100%;
+  color: #555;
 }
 a {
-  color: #ae6215;
+  color: #8037f7;
   text-decoration: none;
   transition: 0.3s;
   letter-spacing: 5px;
 }
 a:hover {
-  color: #fe9900;
+  color: #ff3353;
 }
 h2 {
+  font-weight: 900;
   margin: 0;
-  font-weight: 100;
-  color: #fff;
   letter-spacing: 5px;
 }
 hr {
-  border-top: 1px solid #fe9900;
+  border-top: 2px solid #8037f7;
   margin-top: 10px;
   margin-bottom: 30px;
 }
 
 /* Custom styles */
 .wrapper {
-  background-color: #2f3943;
-  color: #bbbbbb;
   min-height: 100%;
 }
 .about {
-  font-weight: 200;
   font-size: 20px;
   letter-spacing: 1px;
   padding: 20px;
